@@ -6,7 +6,7 @@ const LargeCard = (props) => {
   const loadcontent = props.load;
   return (
     <div className="px-5 py-5">
-      <h1 className="text-[#225dba] px-5 ">Raj Diagnostic Center</h1>
+      <h1 className="text-[#225dba] px-5 "> Diagnostic Center</h1>
       <div className="flex head-1 justify-between py-5" >
         <div className="text-6xl font-semibold ">
           <p>

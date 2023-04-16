@@ -24,7 +24,7 @@ export default function Contact() {
         </div>
         <div className='flex gap-1 items-center'>
           <BiLocationPlus className='text-blue-500' />
-          <a  className="text-blue-300 hover:text-blue-900 " href="geo:27.174290, 81.215767" target="_blank" rel='noreferrer'>Raj Diagnostic Center</a>
+          <a  className="text-blue-300 hover:text-blue-900 " href="geo:27.174290, 81.215767" target="_blank" rel='noreferrer'> Diagnostic Center</a>
         </div>
       </div>
     </div>
