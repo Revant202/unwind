@@ -1,6 +1,7 @@
 
 # Diagnostic Centre Website
 Hospital management website which is made using Reactjs, Tailwind and Sanity. Patients can register for their appointments and explore insights about the hospital. It has the functionality of SMS delivery and Real time Database Updates.
+We have used google cloud services to host this website in a public IP.
 
 
 
