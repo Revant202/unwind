@@ -1,55 +1,33 @@
 {
-  "name": "rdc-hospital",
-  "version": "0.1.0",
-  "private": true,
-  "dependencies": {
-    "@badrap/bar-of-progress": "^0.2.2",
-    "@sanity/client": "^3.4.1",
-    "@testing-library/jest-dom": "^5.16.5",
-    "@testing-library/react": "^13.4.0",
-    "@testing-library/user-event": "^13.5.0",
-    "axios": "^1.2.1",
-    "flowbite": "^1.5.5",
-    "flowbite-react": "^0.3.7",
-    "react": "^18.2.0",
-    "react-detect-offline": "^2.4.5",
-    "react-dom": "^18.2.0",
-    "react-icons": "^4.7.1",
-    "react-scripts": "5.0.1",
-    "request": "^2.88.2",
-    "sass": "^1.56.1",
-    "twilio": "^3.84.0",
-    "web-vitals": "^2.1.4"
-  },
+  "name": "unwind",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
   "scripts": {
-    "dev": "react-scripts start",
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "start": "if-env NODE_ENV=production && npm run start:prod || npm run start:dev",
+    "start:prod": "node server.js",
+    "start:dev": "concurrently \"nodemon --ignore 'client/*'\" \"npm run client\"",
+    "client": "cd client && npm run start",
+    "install": "cd client && npm install",
+    "build": "cd client && npm run build",
+    "heroku-postbuild": "cd client && npm run build"
   },
-  "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
-  },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
-  },
+  "author": "",
+  "license": "ISC",
   "devDependencies": {
-    "autoprefixer": "^10.4.13",
-    "postcss": "^8.4.19",
-    "react-router-dom": "^6.4.4",
-    "tailwindcss": "^3.2.4"
+    "concurrently": "^8.0.1",
+    "nodemon": "^2.0.22"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "if-env": "^1.0.4",
+    "mongoose": "^7.2.2",
+    "morgan": "^1.10.0",
+    "query-string": "^8.1.0",
+    "request": "^2.81.0",
+    "serve": "^14.2.0",
+    "socket.io": "^4.6.1"
   }
 }
