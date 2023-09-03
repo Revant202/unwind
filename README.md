@@ -22,7 +22,7 @@ Unwind is your gateway to synchronized music listening with friends. Here's how 
 6) Real-Time Control: Play, pause, or skip tracks collectively, no matter the distance.
 
 
-##screenshots
+## Screenshots
 sign in
 ![signin](https://github.com/Revant202/unwind/assets/76607683/f3e77549-c059-46c6-88e1-a11a00643b48)
 about
