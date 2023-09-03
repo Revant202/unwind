@@ -3,18 +3,24 @@
 ## Description
 
 Welcome to Unwind, where music brings people together like never before. 
-Unwind envisions a world where music transcends boundaries and brings people together. I believe that sharing music with friends should be seamless, enjoyable, and as immersive as it can get. With this vision in mind, I've crafted a platform that transforms your ordinary listening sessions into extraordinary shared experiences.
+Queue-building app where users can create a room, invite friends, share a common queue, and listen together.
 
-**How does Unwind Work?
+***How does Unwind Work?***
+
 Unwind is your gateway to synchronized music listening with friends. Here's how it all comes together:
-Sign in with Spotify: Connect your Spotify account for instant access to your playlists.
-Create or Join a Room: Host your own room or join with a unique code or playlist-based room.
-Invite Your Friends: Easily share room codes and connect with friends and music enthusiasts.
-Sync Your Tracks: Start playing on Spotify, and Unwind syncs the track for everyone.
-Collaborative Queue: Build a dynamic shared playlist with friends
-Real-Time Control: Play, pause, or skip tracks collectively, no matter the distance.
 
-Ready to experience the magic of synchronized music? Sign in with Spotify, create a room, and invite your friends. Unwind: Where music unites friends, anytime, anywhere.
+1) Sign in with Spotify: Connect your Spotify account for instant access to your playlists.
+
+2) Create or Join a Room: Host your own room or join with a unique code or playlist-based room.
+
+3) Invite Your Friends: Easily share room codes and connect with friends and music enthusiasts.
+
+4) Sync Your Tracks: Start playing on Spotify, and Unwind syncs the track for everyone.
+
+5) Collaborative Queue: Build a dynamic shared playlist with friends
+
+6) Real-Time Control: Play, pause, or skip tracks collectively, no matter the distance.
+
 
 ##screenshots
 sign in
@@ -41,3 +47,5 @@ Unwind was built using the following technologies:
 * [Express](https://expressjs.com/) - Middleware for routing HTTP requests
 * [MongoDB](https://www.mongodb.com/) Atlas / Mongoose - Backend database
 * [Spotify API](https://developer.spotify.com/) - Music listening & playback control
+
+Ready to experience the magic of synchronized music? Sign in with Spotify, create a room, and invite your friends. Unwind: Where music unites friends, anytime, anywhere.
