@@ -2,9 +2,7 @@
 
 ## Description
 
-Welcome to Unwind, where music brings people together like never before. Unwind was created by Revant Emany using React, socket.io, Node, Express, and MongoDB.
-
-**My Vision
+Welcome to Unwind, where music brings people together like never before. 
 Unwind envisions a world where music transcends boundaries and brings people together. I believe that sharing music with friends should be seamless, enjoyable, and as immersive as it can get. With this vision in mind, I've crafted a platform that transforms your ordinary listening sessions into extraordinary shared experiences.
 
 **How does Unwind Work?
