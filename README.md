@@ -48,4 +48,4 @@ Unwind was built using the following technologies:
 * [MongoDB](https://www.mongodb.com/) Atlas / Mongoose - Backend database
 * [Spotify API](https://developer.spotify.com/) - Music listening & playback control
 
-Ready to experience the magic of synchronized music? Sign in with Spotify, create a room, and invite your friends. Unwind: Where music unites friends, anytime, anywhere.
+Ready to experience the magic of synchronized music? Sign in with Spotify, create a room, and invite your friends.
